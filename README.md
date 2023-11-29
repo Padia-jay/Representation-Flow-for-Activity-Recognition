@@ -7,6 +7,10 @@ Authors of the base paper introduced the representation flow layer, which can be
 
 We perform a comparative analysis on it to assess it's generalizability in Dark Conditions.
 
+## Network
+![model overview](/examples/flow-in-network.png?raw=true "model overview")
+
+
 ## Results
 
 <!-- |  Method | Kinetics-400  |  HMDB | Runtime | 
