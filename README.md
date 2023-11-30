@@ -13,20 +13,17 @@ We perform a comparative analysis on it to assess it's generalizability in Dark 
 
 ## Results
 
-<!-- |  Method | Kinetics-400  |  HMDB | Runtime | 
-| ------------- | ------------- | ----------- | ------- | 
-| 2D Two-Stream | 64.5  | 66.6  | 8546ms  |
-| TVNet (+RGB)  | -     | 71.0  | 785ms |
-| (2+1)D Two-Stream | 75.4 | 78.7 | 8623ms |
-| I3D Two-stream | 74.2 | 80.7 | 9354ms |
-| (2+1)D + Rep-Flow | 75.5 | 77.1 | 622ms |
-| (2+1)D + Flow-of-flow | 77.1 | 81.1 | 654ms | -->
+|  Method   | HMDB  |  Kinetics-RGB | ARiD |  Runtime   | 
+| --------- | ----- | ------------- | ---- | ---------- | 
+| 2D RGB    | 53.4  |      61.3     | 37.2 |  225±15ms  |
+| 2 stream  | 62.4  |      64.5     | 43.1  | 8546±147ms |
+| Rep Flow  | 73.5  |      68.5     | 41.8 |  524±24ms  |
 
 
 
 
 
-# Visualization of learned flows
+## Visualization of learned flows
 Examples of representation flows for various actions. The representation flow is computed after the 3rd residual block and captures some sematic motion information. At this point, the representations are low dimensional (28x28).
 
 
